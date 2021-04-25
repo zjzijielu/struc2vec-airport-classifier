@@ -134,7 +134,7 @@ def main():
 
         test_accuracy.append(test_acc)
 
-    print("Average performance: {}".format(np.average(test_accuracy)))
+    print("Average performance: {}, standard deviation: {}".format(np.average(test_accuracy), np.std(test_accuracy)))
 
 if __name__ == "__main__":
     main()
